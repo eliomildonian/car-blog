@@ -1,0 +1,178 @@
+body{
+	background-color:black;
+	font-family:tahoma;
+}
+.push {
+  animation-name: push;
+  animation-duration: 1.5s;
+}
+@keyframes push {
+  from {margin-top: 100%; opacity:0.1} 
+  to {margin-top:0.7%; opacity:1}
+}
+@keyframes fadein{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+header{
+	position:fixed;
+	background-color:grey;
+	top:0%;
+	right:0%;
+	left:0%;
+	text-align: right;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size:16pt;
+	z-index:3;
+}
+.task-bar{
+	padding-right:5%;
+}
+.task-bar-logo{
+	position:absolute;
+	top:0%;
+	left:1%;
+	 height:100%; 
+	 width:15%;
+}
+.home{
+	margin-right:5%;
+}
+#form{
+	margin-right:5%;
+}
+#login{
+	border:none;
+	background-color:inherit;
+	cursor:pointer;
+	font-size:16pt;
+	font-family:tahoma;
+}
+#close-login{
+	border:none;
+	background-color:inherit;
+	cursor:pointer;
+}
+.popup-container{
+	display:flex;
+	width:30%;
+}
+.popup h1{
+	text-align: center;
+	margin-top:15%;
+	text-decoration: underline;
+}
+.popup input{
+	border-radius:20px;
+}
+.login-submit{
+		font-size:12pt;
+		border-radius:10px;
+		border-color:black;
+}
+.popup{
+	background-color:lightgrey;
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	padding:0px 30px 30px;
+	border-radius: 10px;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+	visibility:visible;
+	transform:translate(-50%,-50%) scale(1);
+	top:50%;
+	z-index:4;
+}
+#close-login{
+	margin-right:-10%;
+	float:right;
+}
+.closepopup{
+	width:40px;
+	height:60px;
+}
+.link-modification{
+	text-decoration: none;
+	color:black;
+}
+#search{
+	width:9%;
+	background-color:silver;
+	border-color:black;
+}
+.model-container{
+	display: flex;
+	margin-top: 8%;
+}
+h2{
+	text-align: center;
+	margin-top: 8%;
+	color:white;
+	cursor: pointer;
+}
+#column1 , #column2{
+	width:50%;
+	margin-left:2%;
+}
+#column2{
+	margin-top: 20%;
+}
+.model-gap{
+	padding-bottom: 10%;
+}
+.showvideo{
+	width:95%;
+	height:90%;
+	display:none;
+}
+.image-scale{
+	width:95%;
+	height:90%;
+	cursor: pointer;
+}
+.series-info{
+	display:none;
+	position:absolute;
+	left:2%;
+	background-color: beige;
+	margin-right:2%;
+	z-index:2;
+	overflow: hidden;
+	animation-name:slidedown;
+	animation-duration: 10s;
+}
+@keyframes slidedown{
+	from{
+		max-height: 0;
+	}
+	to{
+		max-height: 1000%;
+	}
+}
+.generation, .different-model{
+	display:flex;
+}
+.closedropdown{
+	position:fixed;
+	right:5%;
+	margin-top:2%;
+	background-color: black;
+	color:white;
+	border-radius: 50%;
+	cursor:pointer;
+	padding:1%;
+	opacity:0.5;
+}
+.text-information,.image-information{
+	width:50%;
+	margin-left:2%;
+}
+.image-information{
+	margin-top:10%;
+	height:2%;
+}

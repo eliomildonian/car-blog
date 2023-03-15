@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="ferrari-page-style.css">
+	<title>FERRARI</title>
+</head>
+<body class="push">
+	<div class="popup-container">
+		<div id="popup" class="popup">
+			<button id="close-login" onclick="closePopup()"><img src="x-icon.png" alt="X" class="closepopup"></button>
+			<form>
+				<h1 class="popup-head">LOGIN:</h1>
+					<label for="email">Email:</label><br>
+					<input type="email" id="email" name="email" placeholder="exemple@gmail.com" required><br><br>
+					<label for="password">Password:</label><br>
+					<input type="password" id="password" name="password" placeholder="123456789" required><br>
+					<span>Don't have an account? <a href="../form/form.html">Sign Up here.</a></span>
+					<br><br>
+				<input type="submit" class="login-submit" value="LOGIN">
+			</form>
+		</div>
+	</div>
+	<header>
+		<img src="car-icon.png" alt="car icon" class="task-bar-logo">
+	<div class="task-bar">
+		<span class="home"><a href="../main/main.html" class="link-modification">Home</a></span>
+		<span id="form"><button id="login" onclick="openPopup()"><a href="#" class="link-modification">login</a></button></span>
+		<input type="search" id="search" name="search" onchange="searchmodel()" placeholder="Search Model">	
+	</div>
+</header>
+<main>
+	<div class="model-container">
+		<div id="column1">
+			<div class="model-gap enzo">
+				<video class="showvideo" controls>
+					<source src="enzo-video.mp4" type="video/mp4">
+				</video>
+				<img src="ferrari-enzo.png" alt="ferrari enzo" class="hidephoto image-scale" onclick="showinfo(1)">
+				<h2 onclick="showinfo(1)">ENZO</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(1)">X</span>
+						<div class="text-information">
+							<h1>State Of Art</h1><br><br>
+							<p>The Enzo Ferrari (Type F140) is a mid-engine sports car manufactured by Italian automobile manufacturer Ferrari and named after the company's founder, Enzo Ferrari. It was developed in 2002 using Formula One technology, such as a carbon-fibre body, F1-style automated-shift manual transmission, and carbon fibre-reinforced silicon carbide (C/SiC) ceramic composite disc brakes, as well as technologies not allowed in F1, such as active aerodynamics. The Enzo Ferrari generates substantial amounts of downforce through its front underbody flaps, small adjustable rear spoiler and rear diffuser, which work in conjunction to produce 3,363 newtons (756 lbf) of downforce at 200 km/h (124 mph) and 7,602 newtons (1,709 lbf) of downforce at 299 km/h (186 mph), before decreasing to 5,738 N (1,290 lbf) at top speed.<br>
+							The Enzo's F140 B V12 engine was the first of a new generation for Ferrari. It is based on the design of the V8 engine found in the Maserati Quattroporte, using the same basic design and 104 mm (4.1 in) bore spacing. </p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-enzo-second.png" alt="ferrari enzo" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="ferrari-enzo-engine.png" alt="engine" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Engine</h1><br><br>
+							<p>The engine in the Enzo is longitudinally mounted, and the car has a rear mid-engine, rear-wheel-drive layout with a 44%/56% front/rear weight distribution. The powerplant is Ferrari's F140B naturally aspirated 65° V12 engine with DOHC 4 valves per cylinder, variable valve timing and Bosch Motronic ME7 fuel injection with a displacement of 5,998.80 cc (6.0 L; 366.1 cu in) generating a power output of 660 PS (485 kW; 651 hp) at 7,800 rpm and 657 N⋅m (485 lb⋅ft) of torque at 5,500 rpm. The redline is 8,200 rpm.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>Performance</h1><br><br>
+							<p>One-way downhill with 1-foot rollout the Enzo can accelerate to 97 km/h (60 mph) in 3.14 seconds and can reach 161 km/h (100 mph) in 6.6 seconds. The ¼-mile (~400 m) time is about 11 seconds, on skidpad it has reached 1.05g, and the top speed has been recorded to be as high as 355 km/h (221 mph). It is rated at 34 litres per 100 kilometres (6.9 mpg‑US) in the city, 20 L/100 km (12 mpg‑US) on the highway and 29 L/100 km (8.1 mpg‑US) combined.<br>
+							Evo tested the Enzo on the famed Nordschleife Circuit and ran a 7:25.21 lap time. The Enzo in the test had a broken electronic damper. They also tested it at Bedford Autodrome West circuit, where it recorded a 1:21.3 lap time, which is 1.1 seconds slower than the Porsche Carrera GT, but faster than the Litchfield Type-25.</p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-enzo-performance.png" alt="performance" class="image-scale">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="model-gap sf90">
+				<video class="showvideo" controls>
+					<source src="sf90-video.mp4" type="video/mp4">
+				</video>
+				<img src="ferrari-sf90.png" alt="ferrari sf90" class="hidephoto image-scale" onclick="showinfo(2)">
+				<h2 onclick="showinfo(2)">SF90</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(2)">X</span>
+						<div class="text-information">
+							<h1>Introduction</h1><br><br>
+							<p>The Ferrari SF90 Stradale (Type F173) is a mid-engine PHEV (Plug-in Hybrid Electric Vehicle) sports car produced by the Italian automobile manufacturer Ferrari. The car shares its name with the SF90 Formula One car with SF90 standing for the 90th anniversary of the Scuderia Ferrari racing team and "Stradale" meaning "made for the road".</p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-sf90-second.png" alt="ferrari sf90" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="ferrari-sf90-spider.png" alt="sf90 spider" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Variants</h1>
+							<h3>SF90 Spider</h3><br><br>
+							<p>The SF90 Spider is an open-top variant of the SF90 Stradale equipped with a retractable hardtop. It is the first Ferrari plug-in hybrid car offered as an open-top variant. It is also the most powerful non-limited convertible car in the world, having a combined power of 1,000 PS. The previous record was held by the Ferrari 812 GTS. Performance is very similar to the closed-body variant and on par with LaFerrari Aperta.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h3>Assetto Fiorano</h3><br><br>
+							<p>The Assetto Fiorano is a racing modification pack for the Ferrari SF90 Stradale or Spider. It uses racing-derived Multimatic shocks and lightweight carbon fibre parts embedded in the door panels and underbody. The Assetto Fiorano also employs a lightweight titanium exhaust system. These measures save 30 kg (66 lb) compared to the standard SF90 Stradale.SF90 Assetto Fiorano has Carbon wheels too.</p>
+						</div>
+
+						<div class="image-information">
+							<img src="ferrari-sf90-assettofiorano.png" alt="Assetto Fiorano" class="image-scale">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="column2">
+			<div class="model-gap laferrari">
+				<video class="showvideo" controls>
+					<source src="Laferrari-video.mp4" type="video/mp4">
+				</video>
+				<img src="ferrari-laferrari.png" alt="ferrari laferrari" class="hidephoto image-scale" onclick="showinfo(3)">
+				<h2 onclick="showinfo(3)">LAFERRARI</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(3)">X</span>
+						<div class="text-information">
+							<h1>Introduction</h1><br><br>
+							<p>LaFerrari, project name F150 is a limited production mid-engine mild hybrid sports car built by Italian automotive manufacturer Ferrari. LaFerrari means "The Ferrari" in Italian and some other Romance languages, in the sense that it is the "definitive" Ferrari.</p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-laferrari-second.png" alt="ferrari laferrari" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="ferrari-laferrari-2013.png" alt="laferrari 2013" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Variants</h1>
+							<h3>LaFerrari (2013–2016)</h3><br><br>
+							<p>LaFerrari is based on findings from testing of the FXX development prototype and on research being conducted by the Millechili Project at the University of Modena. Association with the Millechili Project led to speculation during development that the car would weigh under 1,000 kg (2,205 lb), but a dry weight of around 1,255 kg (2,767 lb) was claimed. Only 499 units were produced, and each cost more than 1 million Euros.<br>
+							The car was unveiled at the 2013 Geneva Auto Show, followed by Auto Shanghai 2013, 2013 Tour Auto Optic 2000, 2013 Supercar Chronicle, Italian Chamber of Commerce in Japan.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h3>LaFerrari Aperta (2016–2018)</h3><br><br>
+							<p>LaFerrari Aperta is the open-top version of LaFerrari. Initially, 200 cars were sold with an additional nine reserved for use during the Ferrari 70th Anniversary celebrations. One more unit was later sold by auction. The Aperta comes with a removable carbon-fiber hardtop and a removable canvas soft top. Other changes include more efficient powertrain's control electronics, re-angled radiators to direct airflow out along the underbody rather than over the bonnet, a longer front air dam to help increase downforce, an L-shaped flap on the upper corner of each windscreen pillar to reduce compression on the rear of the cabin in the absence of a roof, different door opening angles with different wheel arches and a new carbon-fiber insert allowing the doors to rotate.<br>
+							The car was unveiled at the 2016 Paris Motor Show. Like past open-top Ferrari models, it uses the Aperta label to denote its removable roof. According to Ferrari, all 200 units were already pre-sold to customers via invitation.</p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-laferrari-aperta-2016.png" alt="laferrari 2016" class="image-scale">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="model-gap california">
+				<video class="showvideo" controls>
+					<source src="california-video.mp4" type="video/mp4">
+				</video>
+				<img src="ferrari-california.png" alt="ferrari california" class="hidephoto image-scale" onclick="showinfo(4)">
+				<h2 onclick="showinfo(4)">CALIFORNIA</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(4)">X</span>
+						<div class="text-information">
+							<h1>First Generation Ferrari California (2008-2011)</h1><br><br>
+							<p>This was a car that was designed to be easier to handle than more powerful Ferrari automobiles, and it was also easier to get into and out of, a real plaus for a lot of prospective buyers. This was largely accomplished through incorporating a ride height that was higher than most Ferraris as well as designing it as a front-engine model as opposed to incorporating the more traditional mid-engine design. The car also featured a lot of other “firsts” for Ferrari, not the least of which included direct fuel injection for the V8 engine, a 7-speed transmission with a dual clutch, multi-link rear suspension, and a metal roof that could be removed and folded at will. The car handled very well indeed, thanks in large part to its special traction control system and the front engine weight distribution. It basically had to incorporate great handling, as it was capable of producing slightly more than 425 horsepower with its 4.3 liter engine. The end result was a top speed of about 193 miles per hour and an ability to accelerate from 0-60 miles per hour in approximately four seconds</p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-california-2008.png" alt="california 2008" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="ferrari-california-2012.png" alt="california 2012" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>2012 Ferrari California Important Updates</h1><br><br>
+							<p>For the 2012 model year, Ferrari made the decision to change the engine in order to allow it to generate more power. In addition, the engine was designed specifically to produce that special Ferrari sound that so many of the car company’s customers had become accustomed to hearing. There were others changes, as well. The chassis was made almost entirely out of aluminum alloy and there was an upgraded traction control system that used special dampers to make the car easier to handle, especially during corners. All of these changes seemed to be favored by customers, but there was a bigger problem looming with the engine that would necessitate a recall before the end of the year. The upgraded engine had a habit of freezing up suddenly and for no apparent reason. This was bad enough in and of itself, but it also caused a few crashes when the engine seized up at high speeds. Clearly, this was something Ferrari would have to correct, and soon.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>2013 Ferrari California</h1><br><br>
+							<p>There weren’t many changes to the car for 2013, with the very important exception of going back to the original engine. This essentially solved the problem of the engines seizing up, but it also meant that drivers didn’t get the increase in horsepower they had been hoping for. In addition, all of the affected 2012 models had to be brought back in so the engine could be changed.</p>
+						</div>
+						<div class="image-information">
+							<img src="ferrari-california-2013.png" alt="california 2013" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="ferrari-california-2017.png" alt="california 2017" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Second Generation Ferrari California (2014-2017)</h1><br><br>
+							<p>The changes that started in 2014 and 2015 largely carried over to the 2016 and 2017 models, which marked the end of production of this particular car. The upgrades are basically what most people would expect, including a more powerful engine, a sleeker looking body that was even more aerodynamic than the first generation models, and a complete upgrade for the interior. The interior upgrades also consisted of a state of the art information and entertainment system, providing drivers with all the technology they could possible handle.<br>
+							2017 marked the last year this car was produced. As previously mentioned, it was replaced by the Ferrari Portofino for the 2018 model year. During the time that the car was in production, it became something that many drivers loved to own. Although it’s no longer in production, it is still well loved by Ferrari drivers, and will undoubtedly continue to grace the roads for a number of years to come.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+</footer>
+<script src="ferrari-page-js.js"></script>
+</body>
+</html>

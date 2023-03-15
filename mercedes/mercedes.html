@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="mercedes-page-style.css">
+	<title>MERCEDES</title>
+</head>
+<body class="push">
+	<div class="popup-container">
+		<div id="popup" class="popup">
+			<button id="close-login" onclick="closePopup()"><img src="x-icon.png" alt="X" class="closepopup"></button>
+			<form>
+				<h1 class="popup-head">LOGIN:</h1>
+					<label for="email">Email:</label><br>
+					<input type="email" id="email" name="email" placeholder="exemple@gmail.com" required><br><br>
+					<label for="password">Password:</label><br>
+					<input type="password" id="password" name="password" placeholder="123456789" required><br>
+					<span>Don't have an account? <a href="../form/form.html">Sign Up here.</a></span>
+					<br><br>
+				<input type="submit" class="login-submit" value="LOGIN">
+			</form>
+		</div>
+	</div>
+	<header>
+		<img src="car-icon.png" alt="car icon" class="task-bar-logo">
+	<div class="task-bar">
+		<span class="home"><a href="../main/main.html" class="link-modification">Home</a></span>
+		<span id="form"><button id="login" class="link-modification" onclick="openPopup()">login</button></span>
+		<input type="search" id="search" name="search" onchange="searchmodel()" placeholder="Search Model">	
+	</div>
+</header>
+<main>
+	<div class="model-container">
+		<div id="column1">
+			<div class="model-gap c-class">
+				<video class="showvideo" controls>
+					<source src="c-class-video.mp4" type="video/mp4">
+				</video>
+				<img src="Mercedes-c-class.png" alt="c-class" class="hidephoto image-scale" onclick="showinfo(1)">
+				<h2 onclick="showinfo(1)">C-CLASS</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(1)">X</span>
+						<div class="text-information">
+							<h1>Origins: W 201 (1982 – 1993)</h1><br><br>
+							<p>The forerunner to the C-Class, the Mercedes-Benz 190 series was launched at the 1982 Paris Motor Show. Its elegant, proportional styling from legendary designer Bruno Sacco shifted the goalposts for luxury saloons and set the template for the modern C-Class that was still a decade away.<br>
+							It featured a patented multilink rear suspension, front and rear anti-roll bars, plus anti-dive and anti-squat geometry. Reinforcing the marque’s already strong track record for safety, the 190 was constructed from lightweight, high-strength steel that could hit a concrete barrier at 55km/h in an offset crash without seriously injuring its passengers. Airbags, ABS and seatbelt pretensioners completed what was, for its time, a comprehensive safety system. Almost 1.9 million models were sold around the world in just 11 years.</p>
+						</div>
+						<div class="image-information">
+							<img src="c-class-w201.png" alt="W201" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="c-class-w202.png" alt="W202" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Enter the C-Class: W 202 (1993 – 2000)</h1><br><br>
+							<p>Alongside the flagship S-Class and the larger E-Class, the newly minted C-Class became the third key pillar of the passenger car range. Regarded as ‘compact’, it defied the description from the get-go with a spacious, family-sized cabin. A new Estate model added even more utility for families, with model lines ranging from Classic, Esprit, Elegance, Sport and the dynamically focused AMG package.<br>
+							In the first formal collaboration between Mercedes-Benz and AMG, a C 36 AMG model featuring a straight six served as the Formula 1 Safety Car and was superseded by C 43 and C 55 models, the latter offering a 255kW V8 powerplant.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>Technical innovations: W 203 (2000–2007)</h1><br><br>
+							<p>Defined externally by its distinctive quad headlight array and a sharper interpretation of Sacco’s classic three-box design, the C-Class was also a technical leader, featuring more than 20 innovations such as adaptive airbags for the driver and front passenger, headlight assist, fibre-optic audio cables and Apple iPod integration.<br>
+							It also debuted the multi-function steering wheel that has become indispensable on every Mercedes-Benz model since, giving the driver fingertip control over an increasing number of essential functions.<br>
+							The W 203 was also notable for the introduction of a coupé variant to the C-Class range, initially known as the Sports Coupé and later changed in 2005 to the CLC-Class. The sleek coupé body style has since become a mainstay of the C-Class range.<br>
+							A mid-life update also brought a refreshed dashboard and instrument cluster, while a C 32 AMG model featuring a 3.2-litre V6 was replaced with the 275kW, 5.4-litre V8-powered C55 AMG.</p>
+						</div>
+						<div class="image-information">
+							<img src="c-class-w203.png" alt="W203" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="c-class-w204.png" alt="W204" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Efficiency and space: W 204 (2007–2014)</h1><br><br>
+							<p>This generation was defined by significant gains in fuel efficiency, with a focus on modern engines, lightweight construction, a stiffer bodyshell and optimised aerodynamics delivering dividends at the bowser. Extended wheelbase and tracks also improved interior space for occupants, while certain markets offered all-wheel-drive traction (later known as 4MATIC) as an option to standard rear-wheel drive for the first time.<br>
+							It was also the debut of the sporty Avantgarde design and equipment line, alongside Elegance and Classic models featuring the classic radiator grille. Avantgarde, with the Mercedes star embedded in the grille, proved popular with Australian and New Zealand customers.<br>
+							The W 204 saw the arrival of the AMG C 63 model. With a responsive 6.2-litre V8 initially making 336kW and bumped in 2011 to 360kW, it was well received globally – especially in Australia and New Zealand, where per-capita sales of AMG products were among the highest in the world. The C-Class also joined the exclusive Black Series family in 2011 with the C 63 AMG Coupé Black Series featuring 380kW of power and a host of track-focused modifications.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>The ‘mini S-Class’: W 205 (2014–2021)</h1><br><br>
+							<p>This outgoing generation of the Mercedes C-Class has become a firm favourite, with almost 60,000 sold in Australia alone across sedan, estate and coupé variants, plus the addition of an eye-catching cabriolet model (in 2016). The W 205 was built on a version of the same Modular Rear Architecture (MRA) platform used for the E-Class and S-Class models, utilising high-strength steel and lighter aluminium bodywork to decrease weight by 100kg over the previous model, with corresponding efficiency benefits.<br>
+							No longer the ‘baby Benz’ after the introduction to the range of the smaller CLA-Class, the C-Class was instead modelled as a ‘mini S-Class’ with an increase in size and space, plus a more familial resemblance in design that brought technology and safety innovation to the fore. The latter included nine airbags as standard, PRE-SAFE collision preparation, and options such as DISTRONIC PLUS automated cruise control and Active Parking Assist.<br>
+							It was also the first time a plug-in hybrid model was offered in the C-Class range, while other models received ‘mild hybrid’ assistance from an onboard electrical generator capable of storing and deploying energy to improve overall performance.<br>
+							The Mercedes-AMG C 63 was fitted for the first time with a version of the 4.0-litre biturbo V8 used in the Mercedes-AMG GT, delivering up to 375kW in the C 63 S variant coupled with impressive fuel efficiency. Innovations such as AMG RIDE CONTROL sports suspension with three-stage damping adjustment, plus a RACE START function, combined to build on the model’s reputation as a trackday-capable family cruiser.</p>
+						</div>
+						<div class="image-information">
+							<img src="c-class-w205.png" alt="W205" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="c-class-w206.png" alt="W206" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Future focused: W 206 (2021 – )</h1><br><br>
+							<p>What does the future hold for the C-Class? Expect smaller, turbocharged engines with increasing levels of electrical assistance, with corresponding improvements to power delivery and efficiency. More than ever, interior design and appointments will resemble the larger E-Class and S-Class models, along with improvements to technology and safety that will make the C-Class an attractive option for years to come.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="model-gap s-class">
+				<video class="showvideo" controls>
+					<source src="s-class-video.mp4" type="video/mp4">
+				</video>
+				<img src="mercedes-s-class.png" alt="s-class" class="hidephoto image-scale" onclick="showinfo(2)">
+				<h2 onclick="showinfo(2)">S-CLASS</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(2)">X</span>
+						<div class="text-information">
+							<h1>Mercedes-Benz W180 series - 1954 to 1959</h1><br><br>
+							<p>The Mercedes-Benz 220 dropped in March of 1954, and though its understated shape wasn't the same supersized ego statement of today's S-Classes, these early sedans incorporated trick engineering for their day. Nicknamed "Pontons" for their square-shaped bodies, these cars borrowed a single-joint swing axle design from Benz's gorgeous W196 Formula One race car, offering a low pivot point and improved handling thanks to longer control arms which limited track and camber changes. The W180 series eventually gained upgraded inline 6-cylinder engines and brakes, among other improvements, helping move more than 111,035 Ponton-style units over a five and-a-half year production period. A W180 with a manual transmission is a simple but engaging joy to drive. Though its powerplant is anemic by modern standards, the column-mounted H-pattern gearshift and light steering make it surprisingly fun to dart through traffic. Coupled with the relatively lightweight body and generously proportioned greenhouse, the W180 effectively sets the tone for the next generations of S-Class.</p>
+						</div>
+						<div class="image-information">
+							<img src="s-class-w180.png" alt="W180" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="s-class-w111.png" alt="W111" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Mercedes-Benz W111, W108/109 Series - 1959 to 1971</h1><br><br>
+							<p>Mercedes-Benz's so-called Fintail ( Heckflosse in German) sedans introduced the world's first crumple zones, but enthusiasts were likely more impressed by the W111's more whimsical shapes and escalating engine sizes, which grew over the years from a 2.2-liter inline six all the way up to a 3.5-liter V8. The 220SE model delivers more power than the W180, though its automatic gearbox and heavier body mitigated some of those torque and horsepower gains. The 108/109 series models introduced in 1965 offered cleaner styling thanks to the legendary Paul Bracques and a slew of mechanical leaps, from direct-injected engines to a hydropneumatically actuated rear axle and, later, air suspension. The world's first (unofficial) supersedan, the Porsche-beating 300SEL 6.3, debuted at the 1968 Geneva Motor Show, but the models making a broader global impact were the one-off landaulet and extended versions of the Mercedes-Benz 600 built for the Pope.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>Mercedes-Benz W116 Series – 1972 to 1980</h1><br><br>
+							<p>The first Mercedes to use the "S" class nomenclature, the W116 Series introduced streamlined styling, quantum leaps in engineering, and a slew of innovative safety features like a fuel tank mounted above the rear axle, a heavily padded dashboard, and safety passenger cell made using a stiff roof-frame design. Though the 350SEL, powered by a 3.5-liter V8, doesn't have the top dog 450SEL 6.9's hulking powerplant or trick self-leveling hydropneumatic suspension, it drives with considerably more gravitas and modernity thanks to its double wishbone suspension, which trickled down from the experimental C111 model.</p>
+						</div>
+						<div class="image-information">
+							<img src="s-class-w116.png" alt="W116" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="s-class-w126.png" alt="W126" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Mercedes-Benz W126 Series – 1979 to 1991</h1><br><br>
+							<p>The W126 Series claims the longest production run of any modern S-Class, having sold a stunning 818,036 vehicles over a 12-year period. With a new emphasis on fuel efficiency and aerodynamics, this S-Class breed swapped the old iron block engines for aluminum, enabling improved weight distribution and slightly greater output. Though the 500SEL feels hampered by the car's tall gearing, this is the earliest of S-Classes that feels contemporary enough to hold up to modern scrutiny. It may lack the original styling and charm of the earlier S-Classes, but the W126 did wonders for Mercedes-Benz's big sedan supremacy, going essentially unchallenged until the BMW 750i debuted in 1987, forcing Mercedes to develop higher performance V8s.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>Mercedes-Benz W140 Series – 1991 to 1998</h1><br><br>
+							<p>Benz's big sedans grew up with the massive W140, an imposing, boxy four-door that ushered in the 1990s with an imposing presence that developed a reputation for resonating with Russian oligarchs. With burgeoning competition from the likes of Audi and BMW (not to mention relative newcomers like Lexus and Infiniti), Mercedes upped the ante with new features like double-paned glass and small, automatically extending metal rods to aid backing up into parking spots. The W140 saw Mercedes' first serially produced V12 engine, the introduction of electronic stability control, and it was also the first S-Class with model numbers whose first two digits did not reflect engine displacement.</p>
+						</div>
+						<div class="image-information">
+							<img src="s-class-w140.png" alt="W140" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="s-class-w220.png" alt="W220" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Mercedes-Benz W220 Series – 1998 to 2005</h1><br><br>
+							<p>By swapping the S140's slab-like styling for sleeker, more elongated styling cues and a smaller footprint, the W220 delivered a world record-worthy aerodynamic drag coefficient of only .27, coming full circle from the W180's bus-like cD of .473. More tech also became available with the addition of Brake Assist Plus, PreSafe safety features, Distronic adaptive cruise control and keyless go— but most crucial to power hungry drivers was the introduction of the twin-turbo V12 that churned a healthy 500 horsepower, which constituted a miniscule portion of the nearly half-million W220s sold worldwide.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>Mercedes-Benz W221 – 2005 to 2013</h1><br><br>
+							<p>The W221 generation S-Class brought with it more complex styling and plusher interiors, along with the evolution of the W220's electronics systems, many of which were first attempts that became refined in later iterations. The W221 also explored a plethora of engine variants for world markets, from a 2.1-liter four-cylinder diesel all the way up to the mighty 6.0-liter twin-turbo V12 producing 604 horsepower.</p>
+						</div>
+						<div class="image-information">
+							<img src="s-class-w221.png" alt="W221" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="s-class-w222.png" alt="W222" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>Mercedes-Benz W222 – 2013 to present</h1><br><br>
+							<p>Despite its profound advances in luxury (heated armrests and scent dispensers, anyone?), the current-gen S-Class will go down in history as the big sedan that paved the way towards fully autonomous vehicles. Noted for its radar and camera-guided self-driving capabilities (many of which are artificially limited to comply with government regulations), the W222 S-Class might be the most innovative and technologically significant halo car in Daimler history.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>Seventh generation (W223; 2020)</h1><br><br>
+							<p>The W223 was unveiled on 2 September 2020. This generation will not feature a coupe or convertible model as they will instead be replaced by the next generation AMG GT and SL-Class models respectively. The interior of the new model includes up to five displays, AR Head Up Display and an ambient lighting system. Additionally, the W223 S-Class is the first car in the world to come with rear seat airbags that work by using gas to inflate supporting structures to deploy a bag that fills with ambient air, instead of conventional fully gas-inflated airbags that are widely used in automotive airbag systems. On the 5th of December 2022 Mercedes-AMG has debuted the S 63 E Performance V8 PHEV with 791 HP.</p>
+						</div>
+						<div class="image-information">
+							<img src="s-class-w223.png" alt="W223" class="image-scale">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="column2">
+			<div class="model-gap e-class">
+				<video class="showvideo" controls>
+					<source src="e-class-video.mp4" type="video/mp4">
+				</video>
+				<img src="mercedes-e-class.png" alt="e-class" class="hidephoto image-scale" onclick="showinfo(3)">
+				<h2 onclick="showinfo(3)">E-CLASS</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(3)">X</span>
+						<div class="text-information">
+							<h1>1994 – 1995 Mercedes E-Class (W124 1st Generation)</h1><br><br>
+							<p>The first E-Class model for 1994 was actually a facelifted version of the W124 Mercedes had built since 1986. This first model was available in the U.S. in three powertrain variants labeled the E320, E420, and E500.<br>
+							The E320 featured a 3.2-liter six-cylinder engine putting out 217 horsepower and 229 pound-feet of torque. The E420 had a 4.2-liter V8 with 275 horsepower and 295 pound-feet of torque. Finally, the E500 featured an incredibly powerful 5.0-liter V8 with 315 horsepower and 347 pound-feet of torque.<br>
+							The E320 came in several different body styles: a four-door sedan and wagon body styles, and two-door convertible and coupe body styles while the E420 and E500 were both available exclusively with a sedan body style. All models came standard with four-speed automatic transmissions and rear-wheel-drive.<br>
+							The modifications made to the 1994-95 models from previous years held two main focuses: automotive aerodynamics and safety. These first E-Class models were not only the fastest standard production sedans of the time; they were also hailed as some of the safest sedans of the day. Standard safety features included ABS braking, steering wheel and side airbags, and a seatbelt tensioning system, all of which were ahead of the market at the time.</p>
+						</div>
+						<div class="image-information">
+							<img src="e-class-w124.png" alt="W124" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="e-class-w210.png" alt="W210" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>1996 – 2002 Mercedes E-Class (W210 2nd Generation)</h1><br><br>
+							<p>The E-Class line was fully redesigned under its new name for the 1996 model year. The most significant change is found with the body of the vehicle, which is both larger and less boxy than its predecessors. The look is polished off with a split round headlamp design, providing a unique visual personality and becoming a staple for the E-Class aesthetic.
+							<br>Initial offerings were the E300D and E320 with sedan body styles hosting a 134-horsepower E300 diesel engine or a 217-horsepower 3.2-liter six-cylinder engine, respectively; each of which was paired standard to a four-speed automatic transmission and rear-wheel-drive. Significant technology additions for the 1996 model included automatic climate control and air filtration for the first time, and standard traction control.<br>
+							In 1997 an E420 model luxury sedan was added to the lineup with a 275-horsepower 4.2-liter V8 engine mated to a new five-speed automatic transmission that became standard on all models that year.<br>
+							For 1998 new variants were offered, including a wagon and an all-wheel-drive option for the E320 and a turbodiesel E300TD model to replace the previous E300D; that increased power output to 174-horsepower. Mercedes also made the switch from inline-six engines to V6 engines as well.<br>
+							1999 introduced the E430 variant that boasted a 275-horsepower 4.3-Liter V8 engine.<br>
+							In 2000, Mercedes gave the E Class even more technology upgrades that included stability control, touch-shift automatic transmissions, and TeleAid a cellular emergency service as standard. It also added minor cosmetic changes and eliminated the E300TD variant.<br>
+							In 2001 a performance variant was introduced as the AMG-tuned E55, which carried a 349-horsepower 5.5-liter V8 engine catering to the thrill-seeking sedan drivers of the world.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>2003 – 2009 Mercedes E-Class (W211 3rd Generation)</h1><br><br>
+							<p>The redesign for the 2003 E-Class was focused on improving performance and technology and found little in the way of stylistic modifications.<br>
+							The initial lineup included the E320 sedan and wagon with more powerful 221-horsepower 3.2-Liter V6 engines, the E500 sedan with a 302-horsepower 5.0-Liter V8 engine, and the E55 Mercedes-AMG with a 469-horsepower 5.5-Liter V8 engine.<br>
+							All models come standard with five-speed transmissions and rear-wheel-drive, with the E320 wagon having an all-wheel-drive system option. Standard features include keyless entry, two-stage airbags, an improved braking system and ventilation controls, and rain-sensing wipers.<br>
+							In 2005 Mercedes made the wagon body-style available on all models as well as reintroduced a diesel option to the U.S. as the E320 CDI, which carries a 201-horsepower 3.2-Liter V6 engine.<br>
+							In 2006 the E320 base model was boosted to the E350, which carries a 268-horsepower 3.5-Liter V6 engine, a significant increase from the previous 221-horsepower versions.<br>
+							The 2007 model year E-Class brought the lineup a mid-life refresh with a sleek cosmetic revival while engine changes continued to occur. The E500 was replaced by the E550 and added a total of 80 horsepower to the previous version. The E55 AMG was replaced by the E63 AMG, which added 40 horsepower to the previous version. In addition to engine changes, many previously option features become standard, including a sunroof, dual-zone climate control, leather upholstery, a 10-way power driver’s seat with memory settings, and a Harman Kardon surround-sound audio system.</p>
+						</div>
+						<div class="image-information">
+							<img src="e-class-w211.png" alt="W211" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="e-class-w212.png" alt="W212" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>2010 – 2016 Mercedes E-Class (W212 4th Generation)</h1><br><br>
+							<p>The fourth-generation E-Class debuted for the 2010 model year with a full redesign. In addition to the standard sedan body style, a coupe body style was available for the E350 and E550 trims, although not for the E63.<br>
+							The E-Class E350 featured a 3.5-liter V6 with 268 horsepower, while the E550 had a sportier 5.5-liter V8 putting out 382 horsepower. The E63 AMG featured a massive 518-horsepower 6.3-liter V8.<br>
+							This new generation also received a thorough styling update that left the circular quad headlights behind in favor of a more angled and aggressive overall design. The 2010 models also cost significantly less than their 2009 counterparts, while still adding features like a seven-speed automatic transmission, auto-dimming mirrors, COMAND electronic interface system, Bluetooth, and an eight-speaker stereo as standard.<br>
+							2011 saw the return of previous variants, including the wagon body style, a diesel engine option for the E350, and a new convertible option. Standard safety features for this model year include Attention Assist (drowsiness alerts) and PreSafe (crash anticipation controls).<br>
+							For 2012 each model received engine upgrades for increased power and efficiency. These included a 302-horsepower, 3.5-liter V6 with direct injection for the E350, and a twin-turbo 4.7-liter V8 for the E550, which put out 402 horsepower and 443 pound-feet of torque. The E550 sedan also came exclusively with a 4Matic AWD.<br>
+							The 2013 lineup added an all-wheel-drive variant of the E350 and the E400 hybrid, rated at 24/31 mpg city/highway.<br>
+							In 2014 the E-Class received another significant round of updates as the front end styling was again revised to be even sleeker, the E350 diesel option was rebranded as the E250, and the E63 came standard with AWD. Possibly the most significant update to the 2014 models, however, was Mercedes’ new safety package. Front and rear collision-mitigation systems are added as standard, and an updated Driver Assistance package with adaptive cruise control and lane-departure prevention is optional, alongside Mercedes’ Mbrace telematics system with smartphone integration.<br>
+							In 2015 the E400 hybrid model received a new engine, boosting power output to 329 horsepower before being discontinued in 2016 along with the base E63 model.</p>
+						</div>
+					</div>
+					<div class="generation">
+						<div class="text-information">
+							<h1>2017 – Present Mercedes E-Class (W213 5th Generation)</h1><br><br>
+							<p>Mercedes spread the introduction of their fifth generational redesign over two years, starting with the four-door sedan and wagon styles in 2017 and then followed by the two-door coupe and convertible styles in 2018.<br>
+							The new generation debuted with four trim levels: the E300, E400, E550, and AMG E43, and AMG E63 S performance variants, with numbers, indicating which engine is found on each model.<br>
+							Standard powertrains are a 241-horsepower 2.0-liter four-cylinder, a 329-horsepower 3.0-Liter V6, a 402-horsepower 4.7-liter V8, or a 603-horsepower 4.0-Liter V8 (for the 300, 400 and 43, 550, and 63 S respectively).<br>
+							All standard models come standard with rear-wheel-drive (AMG models are all-wheel-drive), and the standard transmission was changed from the seven-speed to a nine-speed automatic. The generational redesign brought another styling update, with the elimination of the four-headlight look entirely, opting for a more market-standard look and grille.<br>
+							For the interior, Mercedes modified the design to be similar to the S-Class. Additionally, stand tech features include PreSafe, Mbrace telematics, voice controls, a navigation system, and Apple CarPlay and Android Auto.<br>
+							The 2019 model year bumped the E400 trim to E450 with a new 362-horsepower 3.0-Liter V6 engine and eliminated the E550 and AMG E43 to introduce the AMG E53, a mild-hybrid variant that carries a 429-horsepower, turbocharged 3.0-liter six-cylinder engine.<br>
+							In 2020 the E300 was bumped to the E350, gaining 15 horsepower on a new engine. Emergency braking is also added as a standard safety feature for 2020 models.<br>
+							For the 2021 model year, the Mercedes-Benz E-Class was updated with a front and rear facelift on all models including the E-Class coupe, E-Class Sedan, and the Cabriolet, and a new design for the steering system that is weighted to be balanced and responsive.<br>
+							However, the biggest update in 2021 came with the powertrain. The E450 switched over to a turbocharged inline-six engine with a 48-volt hybrid system. This has a combined horsepower of 362 and 369 pound-feet of torque. This model year also saw the addition of the Mercedes MBUX infotainment system as a standard with Apple CarPlay and Android Auto.<br>
+							In 2022, there were fewer updates to the fifth-generation E-Class with only a few minor modifications. All new E-Class models came with standard automatic high beams and some new colors were made available. These included Nautical Blue metallic, Manufacktur Starling Blue metallic, Starling Blue metallic, and Manufacktur Moonlight White.</p>
+						</div>
+						<div class="image-information">
+							<img src="e-class-w213.png" alt="W213" class="image-scale">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="model-gap g-class">
+				<video class="showvideo" controls>
+					<source src="g-class-video.mp4" type="video/mp4">
+				</video>
+				<img src="Mercedes-g-class.png" alt="g-class" class="hidephoto image-scale" onclick="showinfo(4)">
+				<h2 onclick="showinfo(4)">G-CLASS</h2>
+				<div class="series-info">
+					<div class="generation">
+						<span class="closedropdown" onclick="hideinfo(4)">X</span>
+						<div class="text-information">
+							<h1>2002-2018 Mercedes G-Class (U.S. Models 1st Generation)</h1><br><br>
+							<p>The Mercedes G-Class, known widely elsewhere and among enthusiasts as the G-Wagen or Galaendewagen, finally came to the American market for the 2002 model year. It was introduced abroad in 1979 and garnered a cult following both abroad and on the American gray market.<br>
+							Mercedes imported the premium G500 version of the G-class, which was a four-door, hardtop SUV with a distinctive boxy shape much like a military vehicle. It was packed with standard luxury features of the time, including a navigation system, nine-speaker audio and six-disc changer, plus power everything, a sunroof and leather and wood interior.<br>
+							The G500 had a 5.0-liter V8 engine that produced 292 horsepower and 336 pound-feet of torque. The top torque levels were made below 3,000 rpm, which meant quick acceleration and rugged off-road capability. The V8 also featured clean operation with two spark plugs and three valves in each cylinder, which made sure that it met even the strictest emission standards of the time. The engine was paired with a five-speed automatic transmission.<br>
+							For 2003, the G-Class added an AMG 5.4 liter V8 that put out an increased 349 horsepower.<br>
+							For 2004, standard equipment included a Harman-Kardon audio system, rear parking sensors and multicontour front seats.<br>
+							For 2007, minor changes came in the form of LED taillights, a new instrument cluster, four-spoke steering wheel and bi-xenon headlights. The G500 was upgraded to a seven-speed automatic transmission and the G55 AMG's 5.4-liter V8 now made 493 horsepower, though it retained the five-speed automatic transmission.</p>
+						</div>
+						<div class="image-information">
+							<img src="g-class-2017.png" alt="2017" class="image-scale">
+						</div>
+					</div>
+					<div class="generation">
+						<div class="image-information">
+							<img src="g-class-2019.png" alt="2019" class="image-scale">
+						</div>
+						<div class="text-information">
+							<h1>2019 - Present Mercedes G-Class (2nd generation)</h1><br><br>
+							<p>This new generation was the first significant update to the G Class since the model was introduced decades ago. The model is wider and taller than its predecessor, with more ground clearance. Interior refinement has been dramatically increased, with Mercedes fitting it with its full slate of luxury amenities.<br>
+							This model sheds 375 pounds thanks to a lighter steel frame and aluminum body panels.<br>
+							The front axle is now an independent suspension design, while the rear remains a solid axle.<br>
+							Like the end of the earlier generation, two version of the G Class will be available at launch. The G550 uses a 4.0-liter, twin-turbocharged V8 that's carried over from the previous model; as before, it makes 416 horsepower and 450 pound-feet of torque. It's paired with a nine-speed automatic transmission.<br>
+							The G63 AMG model has the same 4.0-liter V8 but it's tuned to make 577 horsepower and 627 pound-feet of torque.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+</footer>
+<script src="mercedes-page-js.js"></script>
+</body>
+</html>
